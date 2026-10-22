@@ -1,0 +1,1 @@
+{"description":"NepPay V0 backend — double-entry ledger + idempotency. Mock rails only; no real money.","engines":{"node":">=18"},"name":"neppay-backend","private":true,"scripts":{"start":"node server.js"},"type":"module","version":"0.1.0"}

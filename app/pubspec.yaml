@@ -1,0 +1,22 @@
+name: neppay
+description: "Nepal payment app prototype (Path A / V0) — GPay-smooth UX on Nepal rails: NEPALPAY QR, FonePay QR, eSewa/Khalti sandbox, mock NPI adapter."
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.1
+  mobile_scanner: ^5.1.1
+  local_auth: ^2.2.0
+  uuid: ^4.4.0
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,25 @@
+# Flutter
+.dart_tool/
+.packages
+pubspec.lock
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+android/local.properties
+*.iml
+.idea/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Env / secrets — NEVER commit real credentials
+.env
+.env.*
+!.env.example
+*.keystore
+key.properties
+
+# OS
+.DS_Store
+Thumbs.db
